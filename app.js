@@ -12,4 +12,7 @@ app.get("/", (req, res) => {
   res.send("API is running...");
 });
 
+// Routes
+// app.use("/api/users", userRoutes);
+
 export default app;
